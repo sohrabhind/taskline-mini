@@ -5,8 +5,8 @@ Taskline is a sticky task manager for tasks and time management
 ## To Create Windows executable file:
 * Generate a Windows executable file by running the following commands in the terminal: 
 ```
-pip install py2exe
+pip install pyinstaller
 ```
 ```
-python setup.py py2exe
+pyinstaller --onefile --icon=icon.ico taskline.pyw
 ```
